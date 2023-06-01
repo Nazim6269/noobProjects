@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+.parent{
+    background-color:
+    cadetblue;
+    height:500px;
+    width:500px;
+    font-size: 27px;
+    padding: 30px;
+    color: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 83% 92%, 71% 100%, 71% 100%, 0 100%);
+}
+
+
+.child{
+    background-color:darkgray;
+    height: 300px;
+    width: 300px;
+}
+
+.grand-child{
+    background-color:bisque;
+    height: 200px;
+    width: 200px;
+}
